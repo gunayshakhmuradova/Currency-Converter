@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const exchangeRates = {
             USD: { EUR: 0.85, AZN: 1.7, TRY: 9.5 },
             EUR: { USD: 1.18, AZN: 2, TRY: 11.2 },
-            AZN: { USD: 0.59, EUR: 0.5, TRY: 5.6 },
-            TRY: { USD: 0.105, EUR: 0.089, AZN: 0.18 },
+            AZN: { USD: 0.59, EUR: 0.5, TRY: 16.63 },
+            TRY: { USD: 0.105, EUR: 0.089, AZN: 0.06 },
         };
 
         if (!isNaN(amount) && exchangeRates[baseCurrency] && exchangeRates[baseCurrency][targetCurrency]) {
